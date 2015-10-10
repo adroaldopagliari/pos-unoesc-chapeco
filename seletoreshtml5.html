@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>SVG</title>
+</head>
+<body>
+
+<section>
+      <nav>       
+         <ul class="itens" id="menu-list"><li>
+         <a href="">MENU</a>  
+         </li></ul>
+         <ul><li>
+         <a href="">MENU</a>  
+         </li></ul>
+         <ul><li>
+         <a href="">MENU</a>  
+         </li></ul>
+         <ul><li>
+         <a href="">MENU</a>  
+         </li></ul>
+      </nav>
+</section>
+
+<script type="text/javascript">
+   var itens = document.getElementsByClassName("itens");
+   console.log(itens);
+
+   function adicionaItem(valor){
+      document.getElementById("menu-list").innerHTML += "<li>"+valor+"</li>";
+
+   }
+   adicionaItem("teste");
+</script>
+
+</body>
+</html>
