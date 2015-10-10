@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+<script type="text/javascript" src="cpf.js">
+  function vCPF(input){
+    input.setCustomValidity(validaCPF(input.value)?'':'CPF inválido!');
+  }
+</script>
+<title>Aulta HTML5</title>
+<meta charset="utf-8">
+	<body>
+
+	<form>
+   <label>CPF: <input name="cpf" oninput="vCPF(this)"/>
+   </label> 
+   <input type="submit" value="Enviar"/>
+  </form>
+		
+	</body>
+</head>
+</html>
