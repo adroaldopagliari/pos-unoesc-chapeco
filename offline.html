@@ -47,8 +47,23 @@
       }
 
       window.addEventListener('online',  updateOnlineStatus);
-      window.addEventListener('offline', updateOnlineStatus);
+      window.addEventListener('offline', updateOnlineStatus);    
+      notify("teste");
+ }
+
+   function notify(text){      
+      titleFlick();
+
+     function titleFlick(){
+    if(document.hasFocus()){
+        document.title='Online'
+    return
+    }
+      document.title=document.title=='Online'?'* Offline':'Online'
+    setTimeout('titleFlick()',500)
+    }
     });
+
   </script>
 </body>
 </html>
