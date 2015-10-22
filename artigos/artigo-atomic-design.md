@@ -52,21 +52,23 @@ Estrutura da página
 <h4>blablabla</h4>
 </label>
 
+![alt tag](http://bradfrost.com/wp-content/uploads/2013/06/atoms.jpg)
+
 
 ######**_Moléculas_** 
 
 Definição do estilo
 
 Form.meuForm {
-font:12px/20px 'Open Sans Bold', sans-serif;
-  display:block;
-  margin:0 0 5px;    }
+font:12px/20px 'Open Sans Bold',
+sans-serif;
+display:block;
+ margin:0 0 5px;    }
 
 Estrutura da página
 <form class=”meuForm”>
 <font …>
 </font></form>
-
 ![alt tag](http://image.slidesharecdn.com/atomic-design-141010180409-conversion-gate02/95/working-with-atomic-design-13-638.jpg)
 
 ######**_Organismos_** 
@@ -93,6 +95,7 @@ Estrutura da página
 
 ######**_Páginas_** 
 
+![alt tag](http://image.slidesharecdn.com/responsiveworkflow2-141016081734-conversion-gate01/95/mima-2014-changing-your-responsive-design-workflow-31-638.jpg)
 
 ######Referências
 
