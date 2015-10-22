@@ -69,7 +69,6 @@ Estrutura da página
 
 ![alt tag](http://image.slidesharecdn.com/atomic-design-141010180409-conversion-gate02/95/working-with-atomic-design-13-638.jpg)
 
-
 ######**_Organismos_** 
 
 .corpo {
@@ -80,12 +79,12 @@ Estrutura da página
     color: @gray-light;
     padding-bottom: @space-sm;
   }
-
   p {
     color: @gray;
   }
 }
 
+![alt tag](http://atomicdesign.bradfrost.com/images/content/organism-header.png)
 
 ######**_Templates_**
 
