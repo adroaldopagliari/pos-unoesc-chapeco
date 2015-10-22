@@ -97,7 +97,7 @@ Estrutura da página
 
 ######**_Templates_**
 
-![alt tag](http://demo.patternlab.io/images/fpo_16x9.png)
+![alt tag](http://bradfrost.com/wp-content/uploads/2013/06/template1.jpg)
 
 
 ######**_Páginas_** 
