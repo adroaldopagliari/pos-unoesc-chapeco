@@ -67,6 +67,8 @@ Estrutura da página
 <font …>
 </font></form>
 
+![alt tag](http://image.slidesharecdn.com/atomic-design-141010180409-conversion-gate02/95/working-with-atomic-design-13-638.jpg)
+
 
 ######**_Organismos_** 
 
@@ -86,6 +88,8 @@ Estrutura da página
 
 
 ######**_Templates_**
+
+![alt tag](http://demo.patternlab.io/images/fpo_16x9.png)
 
 
 ######**_Páginas_** 
