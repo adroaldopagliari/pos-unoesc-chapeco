@@ -52,8 +52,6 @@ Estrutura da página
 <h4>blablabla</h4>
 </label>
 
-Referência:
-http://demo.patternlab.io/?p=viewall-atoms-global
 
 ######**_Moléculas_** 
 
@@ -69,8 +67,6 @@ Estrutura da página
 <font …>
 </font></form>
 
-Referência:
-http://demo.patternlab.io/?p=viewall-atoms-global
 
 ######**_Organismos_** 
 
@@ -88,8 +84,6 @@ http://demo.patternlab.io/?p=viewall-atoms-global
   }
 }
 
-Referência:
-http://demo.patternlab.io/?p=viewall-atoms-global
 
 ######**_Templates_**
 
