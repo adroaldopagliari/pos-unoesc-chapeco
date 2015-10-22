@@ -1,29 +1,37 @@
-Resumo
-A grande expans„o e popularizaÁ„o do mundo Web em conjunto com a constante necessidade das equipes de desenvolvimento irem ao encontro de metodologias e ferramentas ·geis fez com que fosse necess·rio alterarmos a maneira como construÌmos Interfaces. As novas tecnologias e conceitos que sucederam o advento da Internet trouxeram novos e flexÌveis mecanismos de desenvolvimento, entretanto, a forma como o layout È produzido e entregue ao usu·rio-final ainda È um gargalo no fluxo do projeto ñ nesse contexto o Designer Brad Frost criou um paradigma de construÁ„o e implementaÁ„o para a camada de Front-End chamado de Atomic Design, composto por elementos que fazem referÍncia as partes comuns dos sistemas: ¡tomos, MolÈculas, Organismos, Templates e P·ginas.
+##Atomic Design
 
-O que È
- A sem‚ntica do termo Atomic Design È uma analogia a conceitos b·sicos de quÌmica e biologia: ¡tomos, MolÈculas e Organismos, referindo-se a partes especÌficas de um sistema comum, tags/elementos, um conjunto de tags/elementos cujo significado seja relevante dentro do contexto, e um agrupamento desses ˙ltimos, respectivamente. Em adiÁ„o a esses conceitos, um conjunto de molÈculas formam Templates, que por sua vez d„o vida as p·ginas.
-A ideia base do Atomic Design È tornar o desenvolvimento do layout da aplicaÁ„o modular, escal·vel e responsivo, por meio de padrıes e conceitos. Esse pensamento se ìtraduzî nas palavras de Stephen Hay: ìWeíre not designing pages, weíre designing system of componentsî ñ Atomic Design est· fortemente relacionado a modularidade, a vis„o de que um sistema È composto por partes menores, que se agrupam e formam um microcosmo.
 
-Como funciona
+#####Adroaldo Pagliari (Unoesc Chapec√≥)
+#####adroaldo@outlook.com
 
-	No Atomic Design cada elemento È tratado individualmente e definido em etapas iniciais do projeto, essa ideia parece simples a priori, porÈm, rompe com o ciclo tradicional de desenvolvimento de Interfaces, cujo framework em cascatas faz com que o modelo seja constantemente reproduzido nas etapas seguintes, tornando o processo moroso. 
-	Cada ·tomo, molÈcula e organismo, ser· definido separadamente, isto È, teremos estilos para cada parte do sistema ñ de forma semelhante a guias de estilo; eles ser„o agrupados (includes) em templates e nessa etapa entreg·veis ao usu·rio. Para a construÁ„o dos estilos utilizando o conceito, È possÌvel utilizar a ferramenta idealizada pelo prÛprio criador do paradigma Brad Frost: Patternlab, que conta com propriedades atuais - os modelos podem ser adaptados e s„o interativos.
 
-Para que usar
+######Resumo
+
+A grande expans√£o e populariza√ß√£o do mundo Web em conjunto com a constante necessidade das equipes de desenvolvimento irem ao encontro de metodologias e ferramentas √°geis fez com que fosse necess√°rio alterarmos a maneira como constru√≠mos Interfaces. As novas tecnologias e conceitos que sucederam o advento da Internet trouxeram novos e flex√≠veis mecanismos de desenvolvimento, entretanto, a forma como o layout √© produzido e entregue ao usu√°rio-final ainda √© um gargalo no fluxo do projeto ‚Äì nesse contexto o Designer Brad Frost criou um paradigma de constru√ß√£o e implementa√ß√£o para a camada de Front-End chamado de Atomic Design, composto por elementos que fazem refer√™ncia as partes comuns dos sistemas: √Åtomos, Mol√©culas, Organismos, Templates e P√°ginas.
+
+######O que √©?
+
+ A sem√¢ntica do termo Atomic Design √© uma analogia a conceitos b√°sicos de qu√≠mica e biologia: √Åtomos, Mol√©culas e Organismos, referindo-se a partes espec√≠ficas de um sistema comum, tags/elementos, um conjunto de tags/elementos cujo significado seja relevante dentro do contexto, e um agrupamento desses √∫ltimos, respectivamente. Em adi√ß√£o a esses conceitos, um conjunto de mol√©culas formam Templates, que por sua vez d√£o vida as p√°ginas.
+A ideia base do Atomic Design √© tornar o desenvolvimento do layout da aplica√ß√£o modular, escal√°vel e responsivo, por meio de padr√µes e conceitos. Esse pensamento se ‚Äútraduz‚Äù nas palavras de Stephen Hay: ‚ÄúWe‚Äôre not designing pages, we‚Äôre designing system of components‚Äù ‚Äì Atomic Design est√° fortemente relacionado a modularidade, a vis√£o de que um sistema √© composto por partes menores, que se agrupam e formam um microcosmo.
+
+######Como funciona?
+
+No Atomic Design cada elemento √© tratado individualmente e definido em etapas iniciais do projeto, essa ideia parece simples a priori, por√©m, rompe com o ciclo tradicional de desenvolvimento de Interfaces, cujo framework em cascatas faz com que o modelo seja constantemente reproduzido nas etapas seguintes, tornando o processo moroso. 
+Cada √°tomo, mol√©cula e organismo, ser√° definido separadamente, isto √©, teremos estilos para cada parte do sistema ‚Äì de forma semelhante a guias de estilo; eles ser√£o agrupados (includes) em templates e nessa etapa entreg√°veis ao usu√°rio. Para a constru√ß√£o dos estilos utilizando o conceito, √© poss√≠vel utilizar a ferramenta idealizada pelo pr√≥prio criador do paradigma Brad Frost: Patternlab, que conta com propriedades atuais - os modelos podem ser adaptados e s√£o interativos.
+
+######Para que usar?
 	
-	A utilizaÁ„o do conceito de Atomic Design tem como principal vantagem pensar o sistema, quanto ao layout, em partes, o que È trivial ao ser humano e, por conseguinte modularizar a interface. A modularizaÁ„o garante que os componentes sejam padronizados e reutilizados, alÈm de aumentar a produtividade da equipe de Front-End que pode entregar ao usu·rio o projeto de layout da aplicaÁ„o sem complexos modelos, produzidos em outras ferramentas.
-	Outro ponto culminante na sua adoÁ„o È o fato de que atualmente diversos dispositivos com caracterÌsticas diferentes ir„o se comunicar e/ou consumir nossas aplicaÁıes, ou seja, o Design do sistema/p·gina deve ser projetado responsivamente desde o seu inÌcio. Nesse ‚mbito o Atomic Design se encaixa bem, desde que suas regras sejam adotadas, definindo-se nas style-guides o comportamento para cada necessidade.
+A utiliza√ß√£o do conceito de Atomic Design tem como principal vantagem pensar o sistema, quanto ao layout, em partes, o que √© trivial ao ser humano e, por conseguinte modularizar a interface. A modulariza√ß√£o garante que os componentes sejam padronizados e reutilizados, al√©m de aumentar a produtividade da equipe de Front-End que pode entregar ao usu√°rio o projeto de layout da aplica√ß√£o sem complexos modelos, produzidos em outras ferramentas.
+Outro ponto culminante na sua ado√ß√£o √© o fato de que atualmente diversos dispositivos com caracter√≠sticas diferentes ir√£o se comunicar e/ou consumir nossas aplica√ß√µes, ou seja, o Design do sistema/p√°gina deve ser projetado responsivamente desde o seu in√≠cio. Nesse √¢mbito o Atomic Design se encaixa bem, desde que suas regras sejam adotadas, definindo-se nas style-guides o comportamento para cada necessidade.
 
-Onde usar
-	A recomendaÁ„o È para que o Atomic Design seja utilizado na construÁ„o de interfaces de sistemas e n„o de simples p·ginas - onde o custo-benefÌcio geralmente n„o È interessante. Sistemas Web que possuem diversos componentes, onde haja necessidade de otimizaÁ„o, escalabilidade e alta produtividade s„o ambientes propÌcios ‡ adoÁ„o do conceito.
+######Onde usar?
+A recomenda√ß√£o √© para que o Atomic Design seja utilizado na constru√ß√£o de interfaces de sistemas e n√£o de simples p√°ginas - onde o custo-benef√≠cio geralmente n√£o √© interessante. Sistemas Web que possuem diversos componentes, onde haja necessidade de otimiza√ß√£o, escalabilidade e alta produtividade s√£o ambientes prop√≠cios √† ado√ß√£o do conceito.
 
-Exemplos
+######Exemplos
 
+1.	√Åtomos 
 
-1.	¡tomos 
-
-DefiniÁ„o do estilo
+Defini√ß√£o do estilo
 
 .h3 {
   font-size:15px;
@@ -36,25 +44,25 @@ DefiniÁ„o do estilo
   }
 p.atom { margin-bottom:20px; }
 
-Estrutura da p·gina
+Estrutura da p√°gina
 
 <p class="atom">
 <h3>blablabla</h3>
 <h4>blablabla</h4>
 </label>
 
-2.	MolÈculas
+2.	Mol√©culas
 
-DefiniÁ„o do estilo
+Defini√ß√£o do estilo
 
 Form.meuForm {
 font:12px/20px 'Open Sans Bold', sans-serif;
   display:block;
   margin:0 0 5px;    }
 
-Estrutura da p·gina
-<form class=îmeuFormî>
-<font Ö>
+Estrutura da p√°gina
+<form class=‚ÄùmeuForm‚Äù>
+<font ‚Ä¶>
 </font></form>
 
 3.	Organismos
@@ -76,8 +84,8 @@ Estrutura da p·gina
 4.	Templates
 
 
+######Refer√™ncias
 
-ReferÍncias
 http://bradfrost.com/blog/post/atomic-web-design/
 http://arquiteturadeinformacao.com/mobile/atomic-design-redesenhando-os-entregaveis-de-designers-e-desenvolvedores/
 http://webnerd.com.br/dev/atomic-design-uma-nova-visao-sobre-o-design-na-web/
