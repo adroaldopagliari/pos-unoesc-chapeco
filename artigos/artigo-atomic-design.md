@@ -52,6 +52,9 @@ Estrutura da página
 <h4>blablabla</h4>
 </label>
 
+Referência:
+http://demo.patternlab.io/?p=viewall-atoms-global
+
 ######**_Moléculas_** 
 
 Definição do estilo
@@ -65,6 +68,9 @@ Estrutura da página
 <form class=”meuForm”>
 <font …>
 </font></form>
+
+Referência:
+http://demo.patternlab.io/?p=viewall-atoms-global
 
 ######**_Organismos_** 
 
@@ -81,6 +87,9 @@ Estrutura da página
     color: @gray;
   }
 }
+
+Referência:
+http://demo.patternlab.io/?p=viewall-atoms-global
 
 ######**_Templates_**
 
