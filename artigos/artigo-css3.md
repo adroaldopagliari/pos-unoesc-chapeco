@@ -1,20 +1,20 @@
-####Unoesc ChapecÛ
-####PÛs-graduaÁ„o em Desenvolvimento Web, Cloud e dispositivos mÛveis - WebMob
+####Unoesc Chapec√≥
+####P√≥s-gradua√ß√£o em Desenvolvimento Web, Cloud e dispositivos m√≥veis - WebMob
 ####Disciplina: HTML5+CSS3
 ####Professor: Jean Carlo Nascimento
-####AcadÍmico(a): Adroaldo JosÈ Pagliari
-##Artigo de revis„o de CSS3
+####Acad√™mico(a): Adroaldo Jos√© Pagliari
+##Artigo de revis√£o de CSS3
 
 
-####Funcionalidade: Transform 2D ñ Translate
+####Funcionalidade: Transform 2D ‚Äì Translate
 
-#####O que È?
+#####O que √©?
 
-A propriedade **_translate_** permite que determinado elemento seja rotacionado entre os seus eixos (XY). Assim como em um plano cartesiano as coordenadas de X e Y representam as coordenadas dos elementos, onde ao incrementar positivamente o valor de X o elemento È rotacionado a direta, enquanto que incrementando positivamente Y o elemento È deslocado para baixo. De forma an·loga,porÈm inversa, caso os valores forem negativos o elemento È deslocado para a esquerda e para cima, respectivamente.
+A propriedade **_translate_** permite que determinado elemento seja rotacionado entre os seus eixos (XY). Assim como em um plano cartesiano as coordenadas de X e Y representam as coordenadas dos elementos, onde ao incrementar positivamente o valor de X o elemento √© rotacionado a direta, enquanto que incrementando positivamente Y o elemento √© deslocado para baixo. De forma an√°loga,por√©m inversa, caso os valores forem negativos o elemento √© deslocado para a esquerda e para cima, respectivamente.
 
 #####Onde usar:
 
-Em qualquer elemento HTML que possua um formato 2D (**_Divs_**, Imagens, etc).
+Em qualquer elemento HTML que possua um formato 2D (*Divs*, Imagens, etc).
 
 #####Como usar:
 
@@ -39,13 +39,13 @@ http://css3clickchart.com/#translate-transform
 
 ####Funcionalidade: Box Sizing
 
-#####O que È?
+#####O que √©?
 
-A propriedade CSS3 **_box sizing determina se valores como, borda, margem ou o preenchimento de determinado elemento ir· influenciar em sua altura e largura permitindo maior flexibilidade na diagramaÁ„o do conte˙do da p·gina. … possÌvel utilizar esse recurso do CSS3 para alterar ou n„o o tamanho de um componente atravÈs da variaÁ„o dos valores das propriedades acima.
+A propriedade CSS3 **_box sizing_** determina se valores como, borda, margem ou o preenchimento de determinado elemento ir√° influenciar em sua altura e largura permitindo maior flexibilidade na diagrama√ß√£o do conte√∫do da p√°gina. √â poss√≠vel utilizar esse recurso do CSS3 para alterar ou n√£o o tamanho de um componente atrav√©s da varia√ß√£o dos valores das propriedades acima.
 
 #####Onde usar:
 
-Em qualquer elemento HTML que seja possÌvel definir as propriedades *border*, *margin* ou *pad*.
+Em qualquer elemento HTML que seja poss√≠vel definir as propriedades *border*, *margin* ou *pad*.
 
 #####Como usar:
 
@@ -58,7 +58,7 @@ seletor {
 
 #####Exemplo de uso
 
-Sintaxe para utilizaÁ„o da propriedade (Desconsiderar a borda):
+Sintaxe para utiliza√ß√£o da propriedade (Desconsiderar a borda):
 
 .div4 {
     width: 300px;
@@ -76,13 +76,13 @@ http://css3clickchart.com/#box-sizing
 
 ####Funcionalidade: Text shadow
 
-#####O que È?
+#####O que √©?
 
-AtravÈs da propriedade **_text-shadow_**, implementada a partir do CSS3 È possÌvel definir sombras em textos sem a necessidade de utilizar outras tÈcnicas, como sobreposiÁ„o de imagens por exemplo. Os valores admitidos pela propriedade s„o: A cor da sombra, a posiÁ„o da sombra com relaÁ„o ao eixo X (Altura) e Y (largura), e o raio (blur). De forma semelhante a implementaÁ„o da transformaÁ„o de elementos 2D (Transform), È possÌvel utilizar valores negativos para os valores de X e Y ñ dessa forma o posicionamento se d· de forma contr·ria, ‡ esquerda e acima. 
+Atrav√©s da propriedade **_text-shadow_**, implementada a partir do CSS3 √© poss√≠vel definir sombras em textos sem a necessidade de utilizar outras t√©cnicas, como sobreposi√ß√£o de imagens por exemplo. Os valores admitidos pela propriedade s√£o: A cor da sombra, a posi√ß√£o da sombra com rela√ß√£o ao eixo X (Altura) e Y (largura), e o raio (blur). De forma semelhante a implementa√ß√£o da transforma√ß√£o de elementos 2D (*Transform*), √© poss√≠vel utilizar valores negativos para os valores de X e Y ‚Äì dessa forma o posicionamento se d√° de forma contr√°ria, √† esquerda e acima. 
 
 #####Onde usar:
 
-Em qualquer elemento que possua texto em seu conte˙do.
+Em qualquer elemento que possua texto em seu conte√∫do.
 
 #####Como usar:
 
@@ -92,7 +92,7 @@ text-shadow: cor x y raio; border: #000 1px solid;
 
 #####Exemplo de uso
 
-Sintaxe para sombreamento do texto em uma div.
+Sintaxe para sombreamento do texto em uma *div*.
 
 div {
 text-shadow: #600 1px 2px 5px;
@@ -106,13 +106,13 @@ http://www.infowester.com/css3sombras.php
 
 ####Funcionalidade: Gradiente (background-image)
 
-#####O que È?
+#####O que √©?
 
-Por meio da propriedade **_background-image_** pode-se definir um efeito de variaÁ„o gradativa de cor, conhecido como gradiente, antes possÌvel apenas por outros meios como por exemplo, atravÈs de imagens e Javascript. … possÌvel ainda definir a proporÁ„o que o efeito ir· utilizar percentualmente.
+Por meio da propriedade **_background-image_** pode-se definir um efeito de varia√ß√£o gradativa de cor, conhecido como gradiente, antes poss√≠vel apenas por outros meios como por exemplo, atrav√©s de imagens e Javascript. √â poss√≠vel ainda definir a propor√ß√£o que o efeito ir√° utilizar percentualmente.
 
 #####Onde usar:
 
-O efeito pode ser obtido a partir de um navegador que tenha suporte para tal. … possÌvel definir a propriedade em um elemento de imagem ou *div*, por exemplo.
+O efeito pode ser obtido a partir de um navegador que tenha suporte para tal. √â poss√≠vel definir a propriedade em um elemento de imagem ou *div*, por exemplo.
 
 #####Como usar (Firefox):
 
@@ -135,13 +135,13 @@ http://www.w3c.br/pub/Cursos/CursoCSS3/css-web.pdf
 
 ####Funcionalidade: Transitions
 
-#####O que È?
+#####O que √©?
 
-A propriedade CSS3 **_transitions_** permite inserir um efeito de troca de estado de determinado elemento da p·gina. … possÌvel atravÈs dele criar transiÁıes e animaÁıes por um determinado perÌodo de tempo. Ainda È possÌvel definir um tempo de atraso (*delay*) para o efeito.
+A propriedade CSS3 **_transitions_** permite inserir um efeito de troca de estado de determinado elemento da p√°gina. √â poss√≠vel atrav√©s dele criar transi√ß√µes e anima√ß√µes por um determinado per√≠odo de tempo. Ainda √© poss√≠vel definir um tempo de atraso (*delay*) para o efeito.
 
 #####Onde usar:
 
-Em qualquer elemento que se deseja obter o efeito. O uso mais comum s„o elementos estruturais como *divs*, *sections*, *articles*.
+Em qualquer elemento que se deseja obter o efeito. O uso mais comum s√£o elementos estruturais como *divs*, *sections*, *articles*.
 
 #####Como usar:
 
@@ -152,7 +152,7 @@ seletor {
 
 #####Exemplo de uso
 
-Sintaxe para aplicaÁ„o do efeito no evento de mouseover em um elemento da p·gina; a cor È alterada gradativamente (8 segundos).
+Sintaxe para aplica√ß√£o do efeito no evento de mouseover em um elemento da p√°gina; a cor √© alterada gradativamente (8 segundos).
 
 .element {
     background-color: red;
@@ -173,13 +173,13 @@ http://css3clickchart.com/#transitions
 
 ####Funcionalidade: Reflections
 
-#####O que È?
+#####O que √©?
 
-Outra propriedade introduzida no CSS3 È o **_box-reflect_** que permite que determinado elemento sem refletido, como o prÛprio nome sugere, sem a necessidade de utilizar imagens ou Javascript. O efeito produz um resultado interessante e realÌstico, porÈm È dependente tambÈm da implementaÁ„o do browser utilizado. … possÌvel definir a posiÁ„o do efeito, o espaÁo entre o conte˙do original e o refletido (*offset*), e tambÈm um imagem como m·scara, a qual ser· utilizada como moldura ao refletir. 
+Outra propriedade introduzida no CSS3 √© o **_box-reflect_** que permite que determinado elemento sem refletido, como o pr√≥prio nome sugere, sem a necessidade de utilizar imagens ou Javascript. O efeito produz um resultado interessante e real√≠stico, por√©m √© dependente tamb√©m da implementa√ß√£o do browser utilizado. √â poss√≠vel definir a posi√ß√£o do efeito, o espa√ßo entre o conte√∫do original e o refletido (*offset*), e tamb√©m um imagem como m√°scara, a qual ser√° utilizada como moldura ao refletir. 
 
 #####Onde usar:
 
-O uso mais comum È em elementos de imagens, porÈm È possÌvel utilizar em outros elementos estruturais.
+O uso mais comum √© em elementos de imagens, por√©m √© poss√≠vel utilizar em outros elementos estruturais.
 
 #####Como usar:
 
@@ -189,7 +189,7 @@ seletor {
 
 #####Exemplo de uso
 
-Abaixo um exemplo da utilizaÁ„o do box-reflect utilizando uma imagem como moldura. A reflex„o ser· abaixo da imagem original e sem espaÁamento entre ambas.
+Abaixo um exemplo da utiliza√ß√£o do box-reflect utilizando uma imagem como moldura. A reflex√£o ser√° abaixo da imagem original e sem espa√ßamento entre ambas.
 
 .img {
    -webkit-box-reflect: below 0px url(shape.png);
@@ -203,9 +203,9 @@ http://webdesign.tutsplus.com/tutorials/cross-browser-css-reflections-glows-and-
 
 ####Funcionalidade: Animations
 
-#####O que È?
+#####O que √©?
 
-A propriedade **_animation_** permite a inserÁ„o de efeitos complexos de animaÁ„o na p·gina, sem a necessidade da utilizaÁ„o de Javascript ou Flash, por exemplo. … possÌvel definir o estado inicial do elemento, incorporar um tempo, um atraso entre as alteraÁıes de estado e essencialmente *keyframes*, que se tratam dos estilos que o elemento ir· assumir em determinado espaÁo de tempo. Ainda outros efeitos podem ser obtidos atravÈs dos valores associados a quantas vezes a animaÁ„o dever· ser executada, a velocidade e a direÁ„o.
+A propriedade **_animation_** permite a inser√ß√£o de efeitos complexos de anima√ß√£o na p√°gina, sem a necessidade da utiliza√ß√£o de Javascript ou Flash, por exemplo. √â poss√≠vel definir o estado inicial do elemento, incorporar um tempo, um atraso entre as altera√ß√µes de estado e essencialmente *keyframes*, que se tratam dos estilos que o elemento ir√° assumir em determinado espa√ßo de tempo. Ainda outros efeitos podem ser obtidos atrav√©s dos valores associados a quantas vezes a anima√ß√£o dever√° ser executada, a velocidade e a dire√ß√£o.
 
 #####Onde usar:
 
@@ -213,7 +213,7 @@ Em elementos estruturais, como por exemplo, *div*, *sections*, etc.
 
 #####Como usar:
 
-/* CÛdigo da animaÁ„o*/
+/* C√≥digo da anima√ß√£o*/
 @keyframes example {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
@@ -232,7 +232,7 @@ seletor {
 
 #####Exemplo de uso
 
-AnimaÁ„o simulando o quicar de uma bola, com tempo de duraÁ„o de 1segundo. Um *keyframe* foi definido para simular a posiÁ„o inicial da bola, e seu estado final.
+Anima√ß√£o simulando o quicar de uma bola, com tempo de dura√ß√£o de 1segundo. Um *keyframe* foi definido para simular a posi√ß√£o inicial da bola, e seu estado final.
 
 .result-animations {
     -webkit-animation-name: bounceball;
@@ -264,13 +264,13 @@ http://www.w3schools.com/css/css3_animations.asp
 
 ####Funcionalidade: Opacity
 
-#####O que È?
+#####O que √©?
 
-A propriedade **_opacity_** permite inserir um efeito de transparÍncia em um elemento da p·gina de forma simples no CSS3. Apesar de ser um recurso extremamente simples, È interessante no sentido de que È possÌvel adicionar um efeito antes n„o obtido sem codificaÁ„o ou ediÁ„o de imagens. Ainda pode-se definir o grau de transparÍncia a ser assumido, porÈm È interessante ressaltar que o efeito ser· aplicado ao elemento pai e a seus filhos (HTML/DOM). 
+A propriedade **_opacity_** permite inserir um efeito de transpar√™ncia em um elemento da p√°gina de forma simples no CSS3. Apesar de ser um recurso extremamente simples, √© interessante no sentido de que √© poss√≠vel adicionar um efeito antes n√£o obtido sem codifica√ß√£o ou edi√ß√£o de imagens. Ainda pode-se definir o grau de transpar√™ncia a ser assumido, por√©m √© interessante ressaltar que o efeito ser√° aplicado ao elemento pai e a seus filhos (HTML/DOM). 
 
 #####Onde usar:
 
-A utilizaÁ„o mais comum È em elementos estruturais.
+A utiliza√ß√£o mais comum √© em elementos estruturais.
 
 #####Como usar:
 
@@ -280,7 +280,7 @@ opacity: number|initial|inherit;
 
 #####Exemplo de uso
 
-AplicaÁ„o do efeito de transparÍncia nos elementos div (50%).
+Aplica√ß√£o do efeito de transpar√™ncia nos elementos div (50%).
 
 div {
    opacity: 0.5
@@ -294,13 +294,13 @@ http://www.w3schools.com/cssref/css3_pr_opacity.asp
 
 ####Funcionalidade: Media queries
 
-#####O que È?
+#####O que √©?
 
-Um dos recursos mais interessantes introduzidos no CSS3 È a **_media queries_**, que permite que o conte˙do de um elemento seja ajustado de acordo com o dispositivo que ir· acessar a p·gina HTML, ou seja, È possÌvel avaliar o tipo de media, e suas caracterÌsticas para determinar qual È a melhor opÁ„o de *layout*. Esse recurso vem ao encontro da interoperabilidade do HTML, e busca auxiliar no processo de quebra de estrutura, e m· formaÁ„o visual da p·gina em determinado dispositivo. Basicamente È necess·rio definir o tipo de mÌdia, juntamente com suas caracterÌsticas e a partir disso definir qual a melhor opÁ„o de visualizaÁ„o.
+Um dos recursos mais interessantes introduzidos no CSS3 √© a **_media queries_**, que permite que o conte√∫do de um elemento seja ajustado de acordo com o dispositivo que ir√° acessar a p√°gina HTML, ou seja, √© poss√≠vel avaliar o tipo de media, e suas caracter√≠sticas para determinar qual √© a melhor op√ß√£o de *layout*. Esse recurso vem ao encontro da interoperabilidade do HTML, e busca auxiliar no processo de quebra de estrutura, e m√° forma√ß√£o visual da p√°gina em determinado dispositivo. Basicamente √© necess√°rio definir o tipo de m√≠dia, juntamente com suas caracter√≠sticas e a partir disso definir qual a melhor op√ß√£o de visualiza√ß√£o.
 
 #####Onde usar:
 
-Em elementos estruturais, que d„o corpo a p·gina.
+Em elementos estruturais, que d√£o corpo a p√°gina.
 
 #####Como usar:
 
@@ -312,7 +312,7 @@ Em elementos estruturais, que d„o corpo a p·gina.
 
 #####Exemplo de uso
 
-AplicaÁ„o da regra (cor de fundo) caso a largura seja 900px.
+Aplica√ß√£o da regra (cor de fundo) caso a largura seja 900px.
 
 @media screen and (min-width: 900px) {
   .class {
@@ -328,13 +328,13 @@ http://wpmidia.com.br/desenvolvimento-web/design-responsivo-css3-media-queries/
 
 ####Funcionalidade: Columns
 
-#####O que È?
+#####O que √©?
 
-A propriedade **_column_** permite que o conte˙do de uma p·gina seja quebrado em colunas, facilitando assim a leitura, e ampliando a capacidade de ediÁ„o dos *layouts* das p·ginas (DiagramaÁ„o). Ainda sobre a propriedade, È possÌvel definir a quantidade de colunas, o espaÁamento entre elas, bem como o estilo de suas bordas.
+A propriedade **_column_** permite que o conte√∫do de uma p√°gina seja quebrado em colunas, facilitando assim a leitura, e ampliando a capacidade de edi√ß√£o dos *layouts* das p√°ginas (Diagrama√ß√£o). Ainda sobre a propriedade, √© poss√≠vel definir a quantidade de colunas, o espa√ßamento entre elas, bem como o estilo de suas bordas.
 
 #####Onde usar:
 
-Em elementos estruturais que possuam conte˙do textual.
+Em elementos estruturais que possuam conte√∫do textual.
 
 #####Como usar (Firefox e Chrome):
 
@@ -350,7 +350,7 @@ elemento {
 
 #####Exemplo de uso
 
-AplicaÁ„o da regra (cor de fundo) caso a largura seja 900px.
+Aplica√ß√£o da regra (cor de fundo) caso a largura seja 900px.
 
 div4 {
 /* borda inserida para facilitar o entedimento */
