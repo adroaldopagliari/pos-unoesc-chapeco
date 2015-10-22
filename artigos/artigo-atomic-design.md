@@ -77,12 +77,19 @@ Estrutura da página
   text-align: bottom;
 
   h3 {
+  
     border-bottom: @gray-lighter solid 1px;
+    
     color: @gray-light;
+    
     padding-bottom: @space-sm;
+    
   }
+  
   p {
+  
     color: @gray;
+    
   }
 }
 
